@@ -1,0 +1,82 @@
+.container{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px -2px rgba(9, 30, 66, 0.25), 0px 0px 0px 1px rgba(9, 30, 66, 0.08);
+    border-radius: 10px;
+    padding: 1vmax;
+    margin: auto;
+    gap: 3vmax;
+    padding-top: 3vmax;
+    padding-bottom: 3vmax;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10vh;
+}
+.container .text{
+    width: 40%;
+    /* padding-top: 5vh; */
+    padding-left: 1vmax;
+    /* background-color: #1e779d; */
+    
+}
+.container .text h1{
+    font-family: roobert;
+    font-size: 2.3vmax;
+    color: #212121;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.container .text small{
+    font-family: roobert;
+    font-size: 1.1vmax;
+    line-height: 1.2;
+    color: #828282;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+.container .text small span{
+  color: #1e779d;
+  font-weight: 550;
+}
+
+.container .que{
+    width: 60%;
+    padding-top: 5vh;
+    background-color: #fff;
+    overflow: hidden;
+    padding: initial;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px -2px rgba(9, 30, 66, 0.25), 0px 0px 0px 1px rgba(9, 30, 66, 0.08);
+    
+}
+.container .que .rhead{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vmax 1vmax;
+    border-bottom: 1px solid #bcacac;
+}
+.plus{
+    color: #1e779d;
+    font-size: 2vmax;
+}
+.container .que .rhead h6{
+    font-family: roobert;
+    font-size: 1.2vmax;
+    color: #615d5d;
+}
+.p{
+    width: 100%;
+    padding: 0 1vmax;
+    border-bottom: 1px solid #bcacac;
+    padding-bottom: .3vmax;
+    display: none;
+
+}
+.p p{
+    font-family: roobert;
+    font-size: 1vmax;
+    font-weight: 500;
+    color: #444;
+}

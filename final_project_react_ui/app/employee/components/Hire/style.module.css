@@ -1,0 +1,63 @@
+.steps_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15vh 0;
+}
+.steps_div h1{
+    font-family: roobert;
+    font-size: 3vmax;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.steps{
+    display: flex;
+    align-items: center;
+    gap: 8vmax;
+    padding-top: 15vh;
+}
+.step{
+    width: 17vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    gap: .7vmax;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.step:hover{
+    /* transform: translateY(-10%); */
+    scale: 1.1;
+    /* transform: translateX(-10%); */
+}
+.step small{
+    font-family: roobert;
+    font-size: 1vmax;
+    text-align: center;
+    font-weight: 570;
+    
+    line-height: 1;
+    color: #5b5858;
+}
+.step h6{
+    font-family: roobert;
+    font-size: 1.3vmax;
+    text-align: center;
+    font-weight: 570;
+    
+    line-height: 1;
+    color: #5b5858;
+
+}
+.icons{
+    font-size: 3vmax;
+    color: #5b5858;
+    margin-bottom: 1vmax;
+}

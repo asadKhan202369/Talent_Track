@@ -1,0 +1,142 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  overflow-y: initial;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* height: 45vh; */
+  border-radius: 1vmax;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  box-shadow: 0 0 1px #b8afafd7;
+  overflow: hidden;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+.swiper-slide:hover{
+  scale: .9;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+   top: 95%;
+   border-radius: 1vmax;
+   height: 1vh;
+   left: 50%;
+   transform: translate(-50%,0);
+   overflow: hidden;
+   margin-top: 5vh;
+   height: 2px;
+   /* background-color: yellow !important; */
+}
+
+
+
+.swiper-button-prev4:after, .swiper-button-next4.right_arrow {
+  display: none;
+}
+
+.swiper-button-prev4,.swiper-button-next4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 99;
+  border: 1px solid #f4f4f4;
+  border: 1px solid #999;
+  border: 2px solid #1e779d;
+
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+
+}
+.swiper-button-prev4{
+  top: 90%;
+  left: 87%;
+  transform: translate(-50%,0);
+}
+.swiper-button-next4{
+  top:90%;
+  left: 94%;
+  transform: translate(-50%,0);
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  background-color:#cae6ff;
+  background-color: #1e779d;
+
+}
+
+
+@media (max-width:767px){
+  .swiper-button-prev4 {
+    display: none;
+  }
+  .swiper-button-next4 {
+    display: none;
+  }
+  .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+    width: 50vw;
+    top: 48% !important;
+  }
+  .swiper-slide{
+    /* height: 40vh; */
+  }
+  
+}
+
+.all{
+  font-size: 1.1vmax;
+  font-family: roobert;
+  color: #111;
+  font-family: roobert;
+    font-size: .8vmax;
+    border: 1px solid #1e779d;
+    padding: 1vmax 2vmax;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color: #1e779d;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    background-color: #1e779d;
+    border: none;
+    font-weight: 500;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    margin-top: 1vmax;
+
+}
+.all:hover{
+  background-color: #135774;
+}

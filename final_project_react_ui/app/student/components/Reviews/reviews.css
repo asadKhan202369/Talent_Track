@@ -1,0 +1,118 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    overflow-y: initial;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    height: 45vh;
+    border-radius: 1vmax;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    box-shadow: 0 0 1px #b8afafd7;
+    overflow: hidden;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+  }
+
+  .swiper-slide:hover{
+    scale: .9;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+     top: 95%;
+     border-radius: 1vmax;
+     height: 1vh;
+     left: 50%;
+     transform: translate(-50%,0);
+     overflow: hidden;
+     margin-top: 5vh;
+     height: 2px;
+     /* background-color: yellow !important; */
+  }
+  
+  
+  
+  .swiper-button-prev2:after, .swiper-button-next2.right_arrow {
+    display: none;
+  }
+  
+  .swiper-button-prev2,.swiper-button-next2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #f4f4f4;
+    border: 1px solid #999;
+    border: 2px solid #1e779d;
+
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+  
+  }
+  .swiper-button-prev2{
+    top: 87%;
+    left: 87%;
+    transform: translate(-50%,0);
+  }
+  .swiper-button-next2{
+    top:87%;
+    left: 94%;
+    transform: translate(-50%,0);
+  }
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background-color:#cae6ff;
+    background-color: #1e779d;
+
+  }
+
+  
+  @media (max-width:767px){
+    .swiper-button-prev2 {
+      display: none;
+    }
+    .swiper-button-next2 {
+      display: none;
+    }
+    .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal{
+      width: 50vw;
+      top: 48% !important;
+    }
+    .swiper-slide{
+      /* height: 40vh; */
+    }
+    
+  }

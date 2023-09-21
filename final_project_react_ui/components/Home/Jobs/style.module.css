@@ -1,0 +1,30 @@
+.emore{
+    font-family: roobert;
+    color: #111;
+    font-weight: 600;
+    text-align:left;
+    font-size: 1.6vmax;
+    letter-spacing: 1px;
+  }
+  .va{
+    font-family: roobert;
+    font-size: .8vmax;
+    border: 1px solid #1e779d;
+    padding: 0.7vmax 2vmax;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color: #1e779d;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    background-color: #1e779d;
+    border: none;
+    font-weight: 500;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    margin-top: 1vmax;
+  }
+  .img{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    overflow: hidden;
+  }
